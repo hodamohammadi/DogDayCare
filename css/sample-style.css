@@ -1,0 +1,141 @@
+
+
+body {
+    font-family: Arial;
+    background: #f1f1f1;
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+
+
+
+/* top navigation bar layout */
+.topnav {
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+/* navigation bar items */
+.topnav a {
+    float: left;
+    display: block;
+    color: #424242;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Footer */
+.footer {
+    padding: 1px;
+    text-align: center;
+    background: #ddd;
+}
+
+/*change color of footer items */
+.footer h2, h5{
+    color: #424242;
+}
+
+
+/* style the map */
+#mymap{
+    width: 100%;
+    height: 400px;
+}
+
+/*the list of results */
+.examples {
+    margin: 20px;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    margin: 10px;
+
+
+}
+
+
+/*each individual result */
+.example {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    width: 60%;
+    padding-left: 20%;
+    
+    
+
+}
+
+.line {
+    width: 60%;
+
+}
+
+/* result image */
+.example img {
+    height: 250px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+/* text of each result */
+.example .details {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: right;
+    padding: 0 0 0px 50px;
+    color: #424242;
+}
+
+.review {
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    
+    
+
+}
+
+.reviews {
+    width: 60%;
+    padding-left: 20%;
+}
+
+/* result image */
+.review img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+/* text of each result */
+.review .details {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: right;
+    padding: 0 0 0px 50px;
+    color: #424242;
+}
+
+
+
